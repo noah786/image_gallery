@@ -14,7 +14,6 @@
 .container{
     height: 100%;
     max-width:1200px;
-    /*  a CSS property that is used to center an element horizontally on a page */
     margin:0 50px;
     padding: 20px;
 }
@@ -35,7 +34,6 @@ h1{
 
 .card{
     position: relative;
-    /* mera container 100% hai to 32%mei 3 images aajayngi and 4% spacing k lie ho jaayga */
     width: 32%;
     /* height: 100%; */
     overflow: hidden;
@@ -45,9 +43,7 @@ h1{
 
 img{
     width: 100%;
-    /* width 100% krne se apne container k according set hojgyi images */
     height: 100%;
-    /* hieght 100% krne se img ki corner hojaygi kyuki upr card ki already kr chuke h border radius and card k hisaab se inherit hojaaygi */
     filter: grayscale(100%);
     box-shadow: 0 0 20px #333;
     object-fit: cover;
